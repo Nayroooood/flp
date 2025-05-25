@@ -89,6 +89,22 @@ body, html {
   background: rgba(255, 215, 0, 0.1);
 }
 
+.description {
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 0.4); /* Fond sombre semi-transparent */
+  color: #ffffff;
+  padding: 20px 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  animation: fadeIn 1.2s ease forwards;
+  z-index: 3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 footer {
   position: absolute;
   bottom: 0;
